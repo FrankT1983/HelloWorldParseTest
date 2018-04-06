@@ -4,11 +4,16 @@ namespace HelloWorld
 {
     class Program
     {
+		static void PrintSeperator()
+		{
+			Console.WriteLine("############");
+		}
+		
         static void Main(string[] args)
         {
-			Console.WriteLine("############");
+			PrintSeperator();
             Console.WriteLine("Hello World.");
-			Console.WriteLine("############");
+			PrintSeperator();
         }
     }
 }
