@@ -12,8 +12,7 @@ namespace HelloWorld
         static void Main(string[] args)
         {
 			PrintSeperator();
-            Console.WriteLine("Hello World.");
-			PrintSeperator();
+            Console.WriteLine("Hello World.");	
         }
     }
 }
