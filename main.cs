@@ -6,7 +6,7 @@ namespace HelloWorld
     {
 		static void PrintSeperator()
 		{
-			Console.WriteLine("############");
+			Console.WriteLine("#----------#");
 		}
 		
         static void Main(string[] args)
