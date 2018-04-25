@@ -4,6 +4,8 @@ namespace HelloWorld
 {
     class Program
     {
+		public static string DefaultGreeting = "Hello World.";
+		
 		static void PrintSeperator()
 		{
 			Console.WriteLine("#----------#");
@@ -12,7 +14,7 @@ namespace HelloWorld
         static void Main(string[] args)
         {
 			PrintSeperator();
-            Console.WriteLine("Hello World.");	
+            Console.WriteLine(DefaultGreeting);	
         }
     }
 }
